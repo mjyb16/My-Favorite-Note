@@ -15,7 +15,11 @@ This project was created during the 2019 SteelHacks hackathon at the University 
 
 ## Contributions: 
 Lizzy Seward: HTML and Javascript front end (found in testing.html)
+
 Gennadi Ryan: Data aquisition, storage, and analysis (found in crawl.py, Getting CSVs.ipynb, and Importing Music.ipynb)
+
 Michael Barth: Data cleaning/analysis (found in SteelHacks.ipynb), Eel implementation (found in SteelHacks.ipynb and testing.html)
+
 Jeffrey Tang: Supporting research
+
 SteelHacks staff: Assisted with Eel implementation
