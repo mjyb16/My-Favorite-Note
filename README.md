@@ -1,5 +1,5 @@
-# SteelHacks2019
-My Favorite Note
+# My Favorite Note
+SteelHacks 2019
 
 ## Note: 
 1. This code assumes the user will create a folder called /music_partition (in the original usage, a symbolic link to a separate partition) used to store music data. Any references in the code to /music_partition refer to this folder, and can be renamed to suit the user.
