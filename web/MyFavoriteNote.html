@@ -1,0 +1,55 @@
+<html> 
+<head> 
+<title> My Favorite Note </title> 
+<script type="text/javascript">
+
+function CheckArtist() 
+{
+var chatinput=document.getElementById("musician").value;
+var Database = ["gennadi", "lizzie", "misha", "jeff"];
+var i =0;
+while (i<=Database.length)
+{
+	if (Database.includes(chatinput)) {
+		document.getElementById("spaninput").innerHTML="Niceeeee";
+	} else {
+		document.getElementById("spaninput").innerHTML="This artist does not exist in our database.";
+		}
+i++;
+}
+document.close();
+}
+</script>
+</head> 
+
+
+
+<body BGCOLOR="93D0DE"> 
+<H1 align=center> My Favorite Note </H1> 
+
+<p> Are you an aspiring musician? Do you want to be able to play just like your favorite artist? Wait no more! My Favorite Note will calculate the favored note, scale, and chord out of any given artist. This way, you will be able to emulate their tonality, pitch, and rhythm. To begin, enter the name of a musical artist. </p> 
+
+
+<p align=center> Enter the name of an artist: 
+<input type="text" name="artist" id="musician" value="Artist name here" size="100" maxlength="100"> 
+</p> 
+<p align=center>
+<input type="button" value="See details" onclick="CheckArtist()"> 
+
+<p align=center> <span id="spaninput"> Result displayed here </span> </p>
+
+</p>
+
+<table> 
+<th> <b> <u> Results </u> </b> </th>
+ <tr> <td> Note: </td> <td> A </td> </tr> <p align=right> <img SRC="sheet_music.jpg" align=right height=100 width=100> </p
+<tr> <td> Scale: </td> <td> </td> </tr>
+<tr> <td> Chord:  </td> <td> </td> </tr>
+<tr> <td> Key:  </td> <td> </td> </tr>
+</table> 
+<p align=center>
+<input type="button" value="Listen" onclick=""> 
+</p>
+
+</body> 
+</html>
