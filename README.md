@@ -6,7 +6,7 @@ SteelHacks 2019
 2. The "Getting CSVs" code obtains the music for one artist (default = Ray Charles). This code can be run repeatedly with modifications to get as many artists' music as desired or modified to obatin all artists' music. 
 
 ## Description:
-This project was created during the 2019 SteelHacks hackathon at the University of Pittsburgh. It takes an input of an artist's name, and returns the most common key/quality, average BPM, and average danceability score based on the songs available on http://piano-play.com/transcriptions.html. 
+This project was created during the 2019 SteelHacks hackathon at the University of Pittsburgh. It takes an input of a jazz musician's name, and returns the most common key/quality, average BPM, and average danceability score based on the songs available on http://piano-play.com/transcriptions.html. 
 
 ## Dependencies: 
 -- Eel framework, https://github.com/ChrisKnott/Eel
