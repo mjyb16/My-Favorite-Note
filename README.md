@@ -10,7 +10,9 @@ This project was created during the 2019 SteelHacks hackathon at the University 
 
 ## Dependencies: 
 -- Eel framework, https://github.com/ChrisKnott/Eel
+
 -- Essentia library, https://essentia.upf.edu/documentation/
+
 -- Pandas library for python
 
 ## Contributions: 
