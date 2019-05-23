@@ -16,7 +16,7 @@ This project was created during the 2019 SteelHacks hackathon at the University 
 -- Pandas library for python
 
 ## Contributions: 
-Lizzy Seward: HTML and Javascript front end (found in testing.html)
+Lizzie Seward: HTML and Javascript front end (found in testing.html)
 
 Gennadi Ryan: Data aquisition, storage, and analysis (found in crawl.py, Getting CSVs.ipynb, and Importing Music.ipynb)
 
